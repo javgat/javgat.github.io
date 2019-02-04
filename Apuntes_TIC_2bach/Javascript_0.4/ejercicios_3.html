@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript: Ejercicios</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image: url("img/fondo.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		   }
+		   .container{
+		   		background-color: rgba(255, 186, 162, 0.85);
+		   }
+	</style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+			function positivos(){
+					 var n1=$('#pn1').val();
+					 var n2=$('#pn2').val();
+					 if((n1>0)&&(n2>0)){
+					 					$('#posit').html("Ambos números son positivos");
+					 }else if((n1>0)||(n2>0)){
+					 	   					 $('#posit').html("Uno de ellos es positivo");
+					 }else{
+					 	   $('#posit').html("Ninguno de ellos es positivo");
+					 }
+			}
+			function mayor(){
+					 var n1=$('#my1').val();
+					 var n2=$('#my2').val();
+					 var n3=$('#my3').val();
+					 if(n1>=n2){
+					 			if(n1>=n3){
+										$('#mayo').html("El mayor es " + n1);   
+								}else{
+										$('#mayo').html("El mayor es " + n3);
+								}
+					 }else{
+					 	   if(n2>=n3){
+						   			  $('#mayo').html("El mayor es " + n2);
+						   }else{
+						   		 	  $('#mayo').html("El mayor es " + n3);
+						   }
+					 }
+			}
+			function mult3(){
+					 var n1=$('#m3').val();
+					 if((n1>10)||(n1<1)){
+					 					 $('#mult').html('<div class="alert alert-danger" role="alert"><p><strong>Ese número no está entre 1 y 10</strong></p>ERROR ERROR AUTODESTRUCCIÓN</div>');
+					 }else if(n1%3==0){
+					 	   			   $('#mult').html(n1 + " es múltiplo de 3");
+					 }else{
+					 	   			   $('#mult').html(n1 + " no es múltiplo de 3");
+					 }
+			}
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<div class="container">
+			<ul class="nav nav-tabs nav-justified">
+  				<li role="presentation"><a href="index.html">Inicio</a></li>
+  				<li role="presentation"><a href="teoria.html">Teoría</a></li>
+  				<li role="presentation" class="active"><a href="ejercicios.html">Ejercicios</a></li>
+			</ul>
+		</div>
+		
+  		<div class="container" id="pag">
+			 <h1>Ejercicios</h1>
+			 <nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="ejercicios_2.html" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="ejercicios.html">1</a></li>
+    <li><a href="ejercicios_2.html">2</a></li>
+    <li class="active"><a href="ejercicios_3.html">3</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="positivos();">¿Son positivos los números?</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Num1">Número 1</label>
+    			   		<input type="text" class="form-control" id="pn1" value="0"/>
+						<label for="Num2">Número 2</label>
+    			   		<input type="text" class="form-control" id="pn2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="posit"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="mayor();">¿Son positivos los números?</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Numy1">Número 1</label>
+    			   		<input type="number" class="form-control" id="my1" value="0"/>
+						<label for="Numy2">Número 2</label>
+    			   		<input type="number" class="form-control" id="my2" value="0"/>
+						<label for="Numy3">Número 3</label>
+    			   		<input type="number" class="form-control" id="my3" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="mayo"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="mult3();">Múltiplo de 3</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Numult3">Dame un número entre 1 y 10</label>
+    			   		<input type="number" class="form-control" id="m3" value="0"/>
+				  </form>
+				  <p id="mult"></p>
+			 </div>
+		</div>
+
+  </body>
+</html>

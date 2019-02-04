@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javgat</title>
+<!--	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+		body{
+		   	background-color: rgb(36, 34, 37);
+				background-size: auto;
+				color: white;
+				font-family: Calibri, Helvetica, sans-serif;
+				font-size: 18px;
+				background-attachment: fixed;
+		    }
+			.container{
+				background-color: rgb(99, 99, 99);
+				border: 1px ridge black;
+				border-radius: 10px;
+				margin-top: 20px;
+			}
+			#portada{
+			 	font-size: 80px;
+				font-family: "Arial Black", Gadget, sans-serif;
+				font-weight: bold;
+			}
+	</style>
+	<script src="js/jquery.js"></script>
+	<script>
+			function oldwebs(){
+				$('#oldweb').html('<p><a class="btn btn-info" role="button" href="Programacion_html_0.5.2/index.html">Programación html 0.5.2</a></p><p><a class="btn btn-info" href="Javascript_0.4/index.html" role="button">Javascript 0.4</a><br/></p>');
+			}
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+	<div class="container">
+		<h1>Apuntes TIC de 2º Bach <small>Javier Gatón</small></h1>
+			<p>Bienvenido a mis apuntes de TIC, el lugar donde subiré mis apuntes de html/css/Javascript en forma de páginas web.</p>
+            <p>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Páginas creadas en 2º de Bachiller
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="Programacion_html_0.5.2/index.html">Programación html 0.5.2</a></li>
+						<li><a href="Javascript_0.4/index.html">Javascript 0.4</a></li>
+					</ul>
+					
+				</div>
+			<p/>
+			<p>Páginas creadas en 2º de Bachiller <a role="button" onclick="oldwebs();">Click</a></p>
+			<div id="oldweb"></div>
+			<p>
+				<a class="btn btn-default" href="../">Volver a javgat</a>
+			</p>
+			<p align="center" id=portada>javgat</p>
+		</div>
+
+  </body>
+</html>

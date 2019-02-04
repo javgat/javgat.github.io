@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript: Ejercicios</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image: url("img/fondo.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		   }
+		   .container{
+		   		background-color: rgba(255, 186, 162, 0.85);
+		   }
+	</style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+			
+			function poi(){
+					 var n1=$('#paroimpar').val();
+					 $('#par').html("El número " + n1 + " es ");
+					 if(n1%2==0){
+					 			  $('#par').append("par");
+					 }else{
+					 	   		  $('#par').append("impar");
+					 }
+			}
+			function mayor(){
+					 var n1=$('#may1').val();
+					 var n2=$('#may2').val();
+					 if(n1>n2){
+					 		   $('#may').html("El número " + n1 + " es mayor que " + n2);
+					 }else if(n1<n2){
+					 	   	   $('#may').html("El número " + n2 + " es mayor que " + n1);
+					 }else{
+					 	   	   $('#may').html("Ambos números son iguales");
+					 }
+			}
+			function diverr(){
+					 var n1=$('#de1').val();
+					 var n2=$('#de2').val();
+					 if(n2==0){
+					 		   $('#divisionerr').html('<div class="alert alert-danger" role="alert"><p><strong>No sé dividir entre 0</strong></p>ERROR ERROR AUTODESTRUCCIÓN</div>');
+					 }else{
+					 	   	   $('#divisionerr').html("La división de " + n1 + " / " + n2 + " = " + (n1/n2));
+					 }
+			}
+			function multiplos(){
+					 var n1=$('#mul1').val();
+					 var n2=$('#mul2').val();
+					 if(n1%n2==0){
+					 		   $('#multip').html(n1 + ' es múltiplo de ' + n2);
+					 }else{
+					 	   	   $('#multip').html(n1 + ' no es múltiplo de ' + n2);
+					 }
+			}
+			
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<div class="container">
+			<ul class="nav nav-tabs nav-justified">
+  				<li role="presentation"><a href="index.html">Inicio</a></li>
+  				<li role="presentation"><a href="teoria.html">Teoría</a></li>
+  				<li role="presentation" class="active"><a href="ejercicios.html">Ejercicios</a></li>
+			</ul>
+		</div>
+		
+  		<div class="container" id="pag">
+			 <h1>Ejercicios</h1>
+			 <nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="ejercicios.html" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="ejercicios.html">1</a></li>
+    <li class="active"><a href="ejercicios_2.html">2</a></li>
+    <li><a href="ejercicios_3.html">3</a></li>
+    <li>
+      <a href="ejercicios_3.html" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="poi();">¿Es par o impar?</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Num">Número</label>
+    			   		<input type="text" class="form-control" id="paroimpar" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="par"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="mayor();">¿Cuál es mayor?</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Num1">Número 1</label>
+    			   		<input type="text" class="form-control" id="may1" value="0"/>
+						<label for="Num2">Número 2</label>
+    			   		<input type="text" class="form-control" id="may2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="may"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="diverr();">División (y mensaje de error)</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Dividendo">Dividendo</label>
+    			   		<input type="text" class="form-control" id="de1" value="0"/>
+						<label for="Divisor">Divisor</label>
+    			   		<input type="text" class="form-control" id="de2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="divisionerr"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="multiplos();">¿Son múltiplos?</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Multiplo2">Posible múltiplo del 2º número</label>
+    			   		<input type="text" class="form-control" id="mul1" value="0"/>
+						<label for="Divisor1">Posible divisor del número 1º</label>
+    			   		<input type="text" class="form-control" id="mul2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="multip"></p>
+			 </div>
+		</div>
+
+  </body>
+</html>
