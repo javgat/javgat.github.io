@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Sobre mi
+title: Sobre mí
 ---
-#Sobre mí
+# Sobre mí
 
 Soy Javier Gatón Herguedas
