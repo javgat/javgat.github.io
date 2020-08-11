@@ -1,6 +1,16 @@
-<nav>
-	<a href="/" {% if page.url == "/" %} style="color: red;"{%endif%} >
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav" >
+	<li>
+		<a href="/" {% if page.url == "/" %} class="active"{%endif%} >
 		Inicio</a>
-	<a href="/about.html" {% if page.url == "/about.html" %} style="color: red;"{%endif%} >
+	</li>
+	<li>
+		<a href="/about.html"{% if page.url == "/about.html" %} class="active"{%endif%} >
 		Quién soy</a>
+	</li>
+</ul>
+</div>
+</div>
 </nav>
