@@ -1,6 +1,6 @@
 ---
 layout: default
-title: javgat
+title: Bienvenido a Javgat
 ---
 # Bienvenido
 
