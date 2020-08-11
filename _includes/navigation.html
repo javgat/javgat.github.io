@@ -1,4 +1,6 @@
 <nav>
-	<a href="/">Inicio</a>
-	<a href="/about.html">Quién soy</a>
+	<a href="/" {% if page.url == "/" %} style="color: red;"{%endif%} >
+		Inicio</a>
+	<a href="/about.html" {% if page.url == "/about.html" %} style="color: red;"{%endif%} >
+		Quién soy</a>
 </nav>
