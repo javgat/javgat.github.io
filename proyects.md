@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Proyectos
+permalink: /proyects
 ---
 # Proyectos
+
+PAGINA EN CONSTRUCCION
 
 Aquí una lista con mis proyectos y enlaces
 
