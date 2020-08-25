@@ -6,6 +6,8 @@ date:   2020-08-25 15:20:31 +0200
 categories: overflow-synth
 ---
 
+# Versión inicial de Overflow-Synth
+
 Ya está disponible la versión inicial de mi proyecto de sintetizador de ruidos:
 Overflow-Synth.
 
