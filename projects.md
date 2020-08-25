@@ -5,9 +5,7 @@ permalink: /projects
 ---
 # Proyectos
 
-PAGINA EN CONSTRUCCION
-
-Aquí una lista con mis proyectos y enlaces
+A continuación está una breve explicación de todos mis proyectos y talleres de informática, con enlaces de interés de cada uno.
 
 #### Healthy Bowl
 
