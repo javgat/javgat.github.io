@@ -23,7 +23,8 @@ La web ya no está activa pero se puede encontrar el código fuente en GitHub:
 
 Diseño y creación en java de un sintetizador de sonidos y ruido basado en aritmética modular y una interfaz de usuario sencilla.
 
-El proyecto está en desarrollo y aún no se puede acceder al repositorio.
+El proyecto está en desarrollo y está disponible en GitHub:
+[javgat][javgat-github-prof] / [overflow-synth][overflow-synth-repo].
 
 Aún queda mucho por desarrollar pero sí está disponible una versión de usuario:
 [Overflow-Synth](/downloads/overflow-synth-latest.jar).
@@ -62,6 +63,7 @@ o modifique para que quepa mejor, pero ahora me gusta así.
 [repo-SSW2020]: https://github.com/HylianPablo/SSW2020
 [hylp-github-prof]: https://github.com/HylianPablo
 [javgat-github-prof]: https://github.com/javgat
+[overflow-synth-repo]: https://github.com/javgat/overflow-synth
 [github-web-repo]: https://github.com/javgat/javgat.github.io
 [tall-terminal-inf]: https://inf.uva.es/2019/03/28/taller-de-terminal-en-linux/
 [tall-terminal-repo]: https://github.com/HylianPablo/TallerTerminal2019
