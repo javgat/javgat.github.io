@@ -9,8 +9,6 @@ title: Inicio
 #antes home
 ---
 
-# Bienvenido
-
 ¡Hola! Me llamo Javier Gatón Herguedas y esta es mi página web de github
 en la que expondré mis trabajos, proyectos y talleres que he hecho
 o estoy haciendo.
