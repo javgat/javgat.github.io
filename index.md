@@ -22,5 +22,46 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
 
-
 [jekyll-organization]: https://github.com/jekyll
+
+<div class="row m-3">
+  <div class="col-sm">
+    <div class="card p-3">
+      <!--<div class="card-header">
+        ¿Quién soy?
+      </div>-->
+      <a class="card-block stretched-link text-decoration-none" href="about.html">
+         <img src="/img/id.png" class="card-img-top" alt="Icono de quién soy">
+        <div class="card-body">
+          <h3 class="card-title" align="center">¿Quién soy?</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card p-3">
+      <!--<div class="card-header">
+        Blog
+      </div>-->
+      <a class="card-block stretched-link text-decoration-none" href="blog.html">
+         <img src="/img/blog.png" class="card-img-top" alt="Icono de quién soy">
+        <div class="card-body">
+          <h3 class="card-title" align="center">Blog</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card p-3">
+      <!--<div class="card-header">
+	Proyectos
+      </div>-->
+      <a class="card-block stretched-link text-decoration-none" href="projects.html">
+         <img src="/img/cohete.png" class="card-img-top" alt="Icono de quién soy">
+        <div class="card-body">
+          <h3 class="card-title" align="center">Proyectos</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
