@@ -27,9 +27,10 @@ La web ya no está activa pero se puede encontrar el código fuente en GitHub:
   <div class="card-body">
     <h5 class="card-title">Overflow Synth</h5>
     <p class="card-text" markdown="1">
-Diseño y creación en java de un sintetizador de sonidos y ruido basado en aritmética modular y una interfaz de usuario sencilla.
+Diseño y creación en java de un sintetizador de sonidos y ruido basado en
+aritmética modular y una interfaz de usuario sencilla.
 <br/>
-La idea no era solo desarrollar el programa en sí, sino también aprendersobre
+La idea no era solo desarrollar el programa en sí, sino también aprender sobre
 el tratamiento computacional del sonido.
 <br/>
 El proyecto está disponible en GitHub:
@@ -72,11 +73,9 @@ que subió mi compañero de taller:
 <br/>
 El taller también fue anunciado en la web de la Escuela de Ingeniería
 Informática: [Anuncio en web de la Universidad][tall-terminal-inf].
-<br/>
-A continuación la imagen del anuncio, que en el futuro probablemente la quite
-o modifique para que quepa mejor, pero ahora me gusta así.
     </p>
-<img src="/img/tallerTerminal.png" alt="Imagen de anuncio de taller" width="600"/>
+<img src="/img/tallerTerminal.png" alt="Imagen de anuncio de taller"
+ class="mx-auto d-block rounded" width="500"/>
   </div>
 </div>
 
