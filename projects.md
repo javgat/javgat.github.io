@@ -29,11 +29,14 @@ La web ya no está activa pero se puede encontrar el código fuente en GitHub:
     <p class="card-text" markdown="1">
 Diseño y creación en java de un sintetizador de sonidos y ruido basado en aritmética modular y una interfaz de usuario sencilla.
 <br/>
-El proyecto está en desarrollo y está disponible en GitHub:
+La idea no era solo desarrollar el programa en sí, sino también aprendersobre
+el tratamiento computacional del sonido.
+<br/>
+El proyecto está disponible en GitHub:
 [javgat][javgat-github-prof] / [overflow-synth][overflow-synth-repo].
 <br/>
-Aún queda mucho por desarrollar pero sí está disponible una versión de usuario:
-[Overflow-Synth](/downloads/overflow-synth-latest.jar).
+Está disponible una versión de descarga ejecutable:
+[overflow-synth.jar](/downloads/overflow-synth-latest.jar).
     </p>
   </div>
 </div>
