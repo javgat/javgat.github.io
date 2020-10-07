@@ -3,12 +3,14 @@ layout: default
 title: Proyectos
 permalink: /projects
 ---
-# Proyectos
+<h2 align="center">Proyectos</h2>
 
 A continuación está una breve explicación de todos mis proyectos y talleres de informática, con enlaces de interés de cada uno.
 
-#### Healthy Bowl
-
+<div class="card m-2">
+  <div class="card-body">
+    <h5 class="card-title">Healthy Bowl</h5>
+    <p class="card-text">
 Trabajo grupal final para la asignatura de Servicios y Sistemas Web
 que consistía en una página web que generaba dietas dinámicamente
 y las guardaba en una base de datos SQL con gestión de usuarios y
@@ -18,6 +20,9 @@ Obtuvimos la matrícula de honor con este trabajo.
 
 La web ya no está activa pero se puede encontrar el código fuente en GitHub:
 [HylianPablo][hylp-github-prof] / [SSW2020][repo-SSW2020].
+    </p>
+  </div>
+</div>
 
 #### Overflow Synth
 

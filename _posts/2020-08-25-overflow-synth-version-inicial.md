@@ -1,19 +1,19 @@
 ---
-layout: default
-# antes post
+layout: post
 title:  "Versión inicial de Overflow-Synth"
 date:   2020-08-25 15:20:31 +0200
 categories: overflow-synth
 ---
 
-# Versión inicial de Overflow-Synth
+## Versión inicial de Overflow-Synth
 
 Ya está disponible la versión inicial de mi proyecto de sintetizador de ruidos:
 Overflow-Synth.
 
 Link de descarga: [overflow-synth-1.0](/downloads/overflow-synth-1.0.jar)
 
-### Funcionamiento básico
+<br/>
+#### Funcionamiento básico
 
 Se basa en aritmetica modular de múltiples ondas base y un limite.
 
@@ -33,7 +33,8 @@ El límite también puede modificar su duración.
 
 También se puede modificar el volumen total y dos delays.
 
-### Delays
+<br/>
+#### Delays
 
 FDelay es el factor de duración, el sonido se multiplica por su valor y se
 hace más rápido y agudo o más lento y grave.
@@ -41,8 +42,8 @@ hace más rápido y agudo o más lento y grave.
 WDelay es retraso de espera. Puedes hacer que cada vez que se cambia de estado
 en una onda se espere un tiempo extra, deformando así el sonido bastante.
 
-
-### Ideas de futuro
+<br/>
+#### Ideas de futuro
 
 En el futuro se añadirá alguna función que modifique la frecuencia de los
 ruidos y sonidos sin modificar su duración, permitiendo así hacer diferentes

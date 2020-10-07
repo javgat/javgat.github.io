@@ -5,17 +5,33 @@ title: About
 permalink: /about
 ---
 
-# ¿Quién soy?
+<h2 align="center">¿Quién soy?</h2>
 
 Soy Javier Gatón Herguedas, alumno de cuarto de carrera de Ingeniería
-Informática con mención en Ingeniería de Software.
+Informática con mención en Ingeniería de Software por la Universidad de Valladolid.
 
 Aquí iría una foto mía centrada.
 
-Me gusta la informática, la electrónica, la farmacología, la neurociencia,
-el contrapunto barroco, el software libre, el funk y los helados.
+He sido y soy miembro de diversas asociaciones universitarias. Principalmente el
+Grupo Universitario de Informática (GUI), en el que fui Vocal de Comunicaciones
+y organicé algunos talleres, y UVaCoders, con los que colaboré en la
+organización de diversas actividades como el Cloudflight Coding Contest (CCC).
+También colaboré con la Escuela de Ingeniería Informática de la UVa en
+actividades como siendo tutor en las Gymkanas de programación para los de
+primero de carrera o de tutor para algunos participantes de la primera
+olimpiada informática de Castilla y León.
+
+Me gusta la música, estudié piano desde los 7 hasta los 18 años,
+finalizando el Grado Profesional de Piano en el Conservatorio
+Profesional de Valladolid en 2018.
+
+Me gusta la informática, la cocina, la electrónica, la farmacología,
+la neurociencia, el contrapunto barroco, el software libre,
+el funk y los helados.
 
 Me puedes encontrar en GitHub como [javgat](https://github.com/javgat).\
 También estoy en Linkedin: [Javier Gatón Herguedas][linkedin-url].
+
+Mi curriculum completo: link aun no
 
 [linkedin-url]: https://linkedin.com/in/javier-gat%C3%B3n-herguedas-2a4b16161/
