@@ -30,7 +30,7 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
       <!--<div class="card-header">
         ¿Quién soy?
       </div>-->
-      <a class="card-block stretched-link text-decoration-none" href="about.html">
+      <a class="card-block stretched-link text-decoration-none" href="about">
          <img src="/img/id.png" class="card-img-top" alt="Icono de quién soy">
         <div class="card-body">
           <h3 class="card-title" align="center">¿Quién soy?</h3>
@@ -43,7 +43,7 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
       <!--<div class="card-header">
         Blog
       </div>-->
-      <a class="card-block stretched-link text-decoration-none" href="blog.html">
+      <a class="card-block stretched-link text-decoration-none" href="blog">
          <img src="/img/blog.png" class="card-img-top" alt="Icono de quién soy">
         <div class="card-body">
           <h3 class="card-title" align="center">Blog</h3>
@@ -56,7 +56,7 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
       <!--<div class="card-header">
 	Proyectos
       </div>-->
-      <a class="card-block stretched-link text-decoration-none" href="projects.html">
+      <a class="card-block stretched-link text-decoration-none" href="projects">
          <img src="/img/cohete.png" class="card-img-top" alt="Icono de quién soy">
         <div class="card-body">
           <h3 class="card-title" align="center">Proyectos</h3>
