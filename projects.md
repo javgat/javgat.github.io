@@ -75,7 +75,7 @@ El taller también fue anunciado en la web de la Escuela de Ingeniería
 Informática: [Anuncio en web de la Universidad][tall-terminal-inf].
     </p>
 <img src="/img/tallerTerminal.png" alt="Imagen de anuncio de taller"
- class="mx-auto d-block rounded" width="500"/>
+ class="mx-auto d-block rounded img-fluid" width="500"/>
   </div>
 </div>
 

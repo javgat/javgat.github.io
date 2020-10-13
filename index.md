@@ -24,8 +24,9 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
-<div class="row m-3">
-  <div class="col-sm">
+<div class="container">
+<div class="row">
+  <div class="col-4">
     <div class="card p-3">
       <!--<div class="card-header">
         ¿Quién soy?
@@ -38,7 +39,7 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
       </a>
     </div>
   </div>
-  <div class="col-sm">
+  <div class="col-4">
     <div class="card p-3">
       <!--<div class="card-header">
         Blog
@@ -51,7 +52,7 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
       </a>
     </div>
   </div>
-  <div class="col-sm">
+  <div class="col-4">
     <div class="card p-3">
       <!--<div class="card-header">
 	Proyectos
@@ -64,4 +65,5 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
       </a>
     </div>
   </div>
+</div>
 </div>
