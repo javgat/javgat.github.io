@@ -24,43 +24,49 @@ Puedes encontrar el código fuente de Jekyll en GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
+<style>
+.tarjeta{
+	height:100%;
+}
+</style>
+
 <div class="container">
 <div class="row">
-  <div class="col-4">
-    <div class="card p-3">
+  <div class="col-sm-4">
+    <div class="card tarjeta">
       <!--<div class="card-header">
         ¿Quién soy?
       </div>-->
       <a class="card-block stretched-link text-decoration-none" href="about">
-         <img src="/img/id.png" class="card-img-top" alt="Icono de quién soy">
-        <div class="card-body">
-          <h3 class="card-title" align="center">¿Quién soy?</h3>
+         <img src="/img/id.png" class="card-img-top px-3 pt-3" alt="Icono de una identificación">
+        <div class="card-body px-0">
+          <h4 class="card-title" align="center">¿Quién soy?</h4>
         </div>
       </a>
     </div>
   </div>
-  <div class="col-4">
-    <div class="card p-3">
+  <div class="col-sm-4">
+    <div class="card tarjeta">
       <!--<div class="card-header">
         Blog
       </div>-->
       <a class="card-block stretched-link text-decoration-none" href="blog">
-         <img src="/img/blog.png" class="card-img-top" alt="Icono de quién soy">
-        <div class="card-body">
-          <h3 class="card-title" align="center">Blog</h3>
+         <img src="/img/blog.png" class="card-img-top px-3 pt-3" alt="Icono de un bloc de notas">
+        <div class="card-body px-0">
+          <h4 class="card-title" align="center">Blog</h4>
         </div>
       </a>
     </div>
   </div>
-  <div class="col-4">
-    <div class="card p-3">
+  <div class="col-sm-4">
+    <div class="card tarjeta">
       <!--<div class="card-header">
 	Proyectos
       </div>-->
       <a class="card-block stretched-link text-decoration-none" href="projects">
-         <img src="/img/cohete.png" class="card-img-top" alt="Icono de quién soy">
-        <div class="card-body">
-          <h3 class="card-title" align="center">Proyectos</h3>
+         <img src="/img/cohete.png" class="card-img-top px-3 pt-3" alt="Icono de un cohete">
+        <div class="card-body px-0 ">
+          <h4 class="card-title" align="center"><nobr>Proyectos</nobr></h4>
         </div>
       </a>
     </div>
