@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image: url("img/fondo.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		   }
+		   .container{
+		   		background-color: rgba(255, 186, 162, 0.85);
+		   }
+		   #portada{
+			 	font-size: 80px;
+				font-family: "Arial Black", Gadget, sans-serif;
+				font-weight: bold;
+		   }
+	</style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+			function java(){
+					 $('#text').html('<div class="alert alert-info" role="alert"><strong>¡Bienvenido!</strong> Esta es mi página de javascript aplicado a html, donde subiré la teoría de java y mis ejercicios.</div><p>Si quieres acceder a mi página de programación html haz click en el botón a continuación <a class="btn btn-info" href="../Programacion_html_0.5.2/index.html" role="button">Programación html 0.5.2</a></p><p>Versión 0.4 de la web</p><p align="center" id="portada">Javascript</p><p align="center"><img src="img/js.png"/></p>');
+					 }
+					 
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<div class="container">
+			<ul class="nav nav-tabs nav-justified">
+  				<li role="presentation" class="active"><a href="index.html">Inicio</a></li>
+  				<li role="presentation"><a href="teoria.html">Teoría</a></li>
+  				<li role="presentation"><a href="ejercicios.html">Ejercicios</a></li>
+			</ul>
+		</div>
+  		<div class="container" id="pag">
+			 <h1>Javascript</h1>
+			 <p align="center"><button class="btn btn-success btn-lg" onclick="java();">Púlsame</button></p>
+			 <div id="text"></div>
+		</div>
+
+  </body>
+</html>

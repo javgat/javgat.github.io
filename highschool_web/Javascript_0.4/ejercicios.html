@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript: Ejercicios</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image: url("img/fondo.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		   }
+		   .container{
+		   		background-color: rgba(255, 186, 162, 0.85);
+		   }
+	</style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+					 
+			function borrar(a){
+					 $(a).html('');
+			}
+			function hola(){
+					 alert("Hola Mundo");
+			}
+			function nombre(){
+					 $('#nombre').html("Soy Javier Gatón");
+			}
+			function resta(){
+					 var n1=$('#r1').val();
+					 var n2=$('#r2').val();
+					 $('#resta').html("La diferencia entre " + n1 + " - " + n2 + " = " + (n1-n2));
+			}
+			function multiplicacion(){
+					 var n1=$('#m1').val();
+					 var n2=$('#m2').val();
+					 $('#multiplicacion').html("El producto de " + n1 + " x " + n2 + " = " + (n1*n2));
+			}
+			function division(){
+					 var n1=$('#d1').val();
+					 var n2=$('#d2').val();
+					 $('#division').html("La división de " + n1 + " / " + n2 + " = " + (n1/n2));
+			}
+			function raiz_cuad(){
+					 var n1=$('#rc').val();
+					 $('#raiz_cuad').html("La raíz cuadrada de " + n1 + " es " + Math.sqrt(n1));
+			}
+			function milla(){
+					 var n1=$('#mkm').val();
+					 $('#milla').html( n1 + " millas son " + (n1*1.609) + " kilómetros.");
+			}
+			function midia(){
+					 var n1=$('#md1').val();
+					 var n2=$('#md2').val();
+					 var n3=$('#md3').val();
+					 var n4=$('#md4').val();
+					 var n5=$('#md5').val();
+					 $('#media').html("La media de los cinco números es " + ((n1-(-n2)-(-n3)-(-n4)-(-n5))/5));
+			}
+			function seno(){
+					 var n1=$('#ang').val();
+					 var PI=3.14159265;
+					 $('#seno').html("El seno es " + Math.sin(n1*PI/180));
+			}
+			function interes(){
+					 var E=$('#ie').val();
+					 var R=$('#ii').val();
+					 var N=$('#im').val();
+					 $('#interes').html("El dinero obtenido al final es " + (E*Math.pow((R-(-1)),N)));
+			}
+			
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<div class="container">
+			<ul class="nav nav-tabs nav-justified">
+  				<li role="presentation"><a href="index.html">Inicio</a></li>
+  				<li role="presentation"><a href="teoria.html">Teoría</a></li>
+  				<li role="presentation" class="active"><a href="ejercicios.html">Ejercicios</a></li>
+			</ul>
+		</div>
+		
+  		<div class="container" id="pag">
+			 <h1>Ejercicios</h1>
+			 <nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="ejercicios.html">1</a></li>
+    <li><a href="ejercicios_2.html">2</a></li>
+    <li><a href="ejercicios_3.html">3</a></li>
+    <li>
+      <a href="ejercicios_2.html" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+			 <div class="well center-block" style="max-width:400px"><button class="btn btn-success btn-lg  btn-block" onclick="hola();">Hola Mundo</button></div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="nombre();">Mi nombre</button></p><p id="nombre"></p></div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="resta();">Resta</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Minuendo">Minuendo</label>
+    			   		<input type="text" class="form-control" id="r1" value="0"/>
+						<label for="Sustraendo">Sustraendo</label>
+    			   		<input type="text" class="form-control" id="r2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="resta"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="multiplicacion();">Multiplicación</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Factor_1">Factor 1</label>
+    			   		<input type="text" class="form-control" id="m1" value="0"/>
+						<label for="Factor_2">Factor 2</label>
+    			   		<input type="text" class="form-control" id="m2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="multiplicacion"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="division();">División</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Dividendo">Dividendo</label>
+    			   		<input type="text" class="form-control" id="d1" value="0"/>
+						<label for="Divisor">Divisor</label>
+    			   		<input type="text" class="form-control" id="d2" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="division"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="raiz_cuad();">Raíz cuadrada</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Raiz">Número del que hallar la raíz cuadrada</label>
+    			   		<input type="text" class="form-control" id="rc" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="raiz_cuad"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="milla();">Millas a Kilómetros</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Millas">Cantidad de Millas</label>
+    			   		<input type="text" class="form-control" id="mkm" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="milla"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="midia();">Media de 5 números</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="N1">Número 1</label>
+    			   		<input type="text" class="form-control" id="md1" value="0"/>
+						<label for="N2">Número 2</label>
+    			   		<input type="text" class="form-control" id="md2" value="0"/>
+						<label for="N2">Número 3</label>
+    			   		<input type="text" class="form-control" id="md3" value="0"/>
+						<label for="N2">Número 4</label>
+    			   		<input type="text" class="form-control" id="md4" value="0"/>
+						<label for="N2">Número 5</label>
+    			   		<input type="text" class="form-control" id="md5" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="media"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="seno();">Seno</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="Angulo">Ángulo</label>
+    			   		<input type="text" class="form-control" id="ang" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="seno"></p>
+			 </div>
+			 <div class="well center-block" style="max-width:400px"><p><button class="btn btn-success btn-lg  btn-block" onclick="interes();">Dinero obtenido finalmente</button></p>
+			 	  <form><div class="form-group">
+    			   		<label for="ie">Dinero inicial</label>
+    			   		<input type="text" class="form-control" id="ie" value="0"/>
+						<label for="ii">Interés</label>
+    			   		<input type="text" class="form-control" id="ii" value="0"/>
+						<label for="im">Meses</label>
+    			   		<input type="text" class="form-control" id="im" value="0"/>
+  				   		</div>
+				  </form>
+				  <p id="interes"></p>
+			 </div>
+		</div>
+
+  </body>
+</html>
