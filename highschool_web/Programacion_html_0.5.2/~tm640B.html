@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tablas</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image:url("img/plants.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		    }
+			.container{
+					   background-color: #D5F8F8 ;
+			 }
+	</style>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body ccID="559">
+  		<nav ccID="571" class="navbar navbar-inverse">
+  			 <div ccID="614" class="container-fluid">
+    		 	  <div ccID="655" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			  	   <ul ccID="744" class="nav navbar-nav" >
+        			   	   <li ccID="792"><a ccID="796" href="index.html">Inicio</a></li>
+        				   <li ccID="849" class="dropdown">
+          				   	  <a ccID="892" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tipografía<span ccID="1019" class="caret"></span></a>
+          				   	  <ul ccID="1072" class="dropdown-menu">
+						   	  	  <li ccID="1115"><a ccID="1119" href="titulos.html">Títulos</a></li>
+						   		  <li ccID="1174"><a ccID="1178" href="fuente.html">Fuente</a></li>
+							  </ul>
+						   </li>
+						   <li ccID="1258"><a ccID="1262" href="enlaces.html">Enlaces</a></li>
+						   <li ccID="1312"><a ccID="1316" href="listas.html">Listas</a></li>
+						   <li ccID="1364" class="active"><a ccID="1383" href="tablas.html">Tablas<span ccID="1411" class="sr-only">(actual)</span></a></li>
+						   <li ccID="1468"><a ccID="1472" href="parrafos.html">Párrafos</a></li>
+						   <li ccID="1525"><a ccID="1529" href="formularios.html">Formularios</a></li>
+						   <li ccID="1587"><a ccID="1591" href="imagenes.html">Imágenes</a></li>
+						   <li ccID="1644"><a ccID="1648" href="estilo.html">Estilo</a></li>
+						   <li ccID="1696"><a ccID="1700" href="#Modales" data-toggle="modal" >Modales</a></li>
+						   <li ccID="1767" class="dropdown">
+          				   	  <a ccID="1810" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span ccID="1935" class="caret"></span></a>
+          				   	  <ul ccID="1988" class="dropdown-menu">
+							  	  <li ccID="2028"><a ccID="2032" href="index.html">Inicio</a></li>
+            			   	  	  <li ccID="2094"><a ccID="2098" href="titulos.html">Títulos</a></li>
+						   		  <li ccID="2153"><a ccID="2157" href="fuente.html">Fuente</a></li>
+						   		  <li ccID="2209"><a ccID="2213" href="enlaces.html">Enlaces</a></li>
+						   		  <li ccID="2267"><a ccID="2271" href="listas.html">Listas</a></li>
+						   		  <li ccID="2323"><a ccID="2327" href="tablas.html">Tablas</a></li>
+						   		  <li ccID="2379"><a ccID="2383" href="parrafos.html">Párrafos</a></li>
+						   		  <li ccID="2440"><a ccID="2444" href="formularios.html">Formularios</a></li>
+						   		  <li ccID="2506"><a ccID="2510" href="imagenes.html">Imágenes</a></li>
+						   		  <li ccID="2567"><a ccID="2571" href="estilo.html">Estilo</a></li>
+								  <li ccID="2620"><a ccID="2624" href="#Modales" data-toggle="modal" >Modales</a></li>
+            			   	  	  <li ccID="2706" role="separator" class="divider"></li>
+            			   	  	  <li ccID="2774"><a ccID="2778" href="../">Volver a trabajos (tic2)</a></li>
+            			   	  	  <li ccID="2851" role="separator" class="divider"></li>
+            			   	  	  <li ccID="2919"><a ccID="2923" href="../../">Volver a jav-gat</a></li>
+          				   	  </ul>
+        				   </li>
+      			  	   </ul>
+    		 	  </div>
+  			 </div>
+  		</nav>
+		<div ccID="3084" class="container">
+			 <h1 ccID="3113">Tablas</h1>
+			 <p ccID="3134">Las tablas sirven para hacer tablas. Se inicia con etiqueta &lt;table&gt;, crear filas con &lt;tr&gt; y luego celdas en cada fila &lt;td&gt;. Para celda "título" (centrada en negrita) se usa &lt;th&gt; Un ejemplo de tabla y luego su representación: </p>
+			 <pre ccID="3398">
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Titulo Columna 1&lt;/th&gt;
+		&lt;th&gt;Título Columna 2&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Celda 2,1&lt;/td&gt;
+		&lt;td&gt;Esto es una celda&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Celda 3,1&lt;/td&gt;
+		&lt;td&gt;Celda 3,2&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+			</pre>
+			(Para escribir el codigo directamente como aquí, he puesto &lt;pre&gt;&lt;/pre&gt; )<br ccID="3843"/>
+			<table ccID="3853">
+				   <tr ccID="3869">
+				   	   <th ccID="3886">Titulo Columna 1</th>
+				   	   <th ccID="3924">Título Columna 2</th>
+				   </tr>
+				   <tr ccID="3973">
+  				   	   <td ccID="3992">Celda 2,1</td>
+				   	   <td ccID="4023">Esto es una celda</td>
+				   </tr>
+				   <tr ccID="4072">
+				   	   <td ccID="4089">Celda 3,1</td>
+				   	   <td ccID="4120">Celda 3,2</td>
+				   </tr>
+			</table>
+			<h2 ccID="4170">Clases de tablas <small ccID="4191">Bootstrap</small></h2>
+			<p ccID="4225">Bootstrap vuelve a salvarnos el día y nos permite modificar la tabla para tener líneas y diseños "de fábrica" que no den asco. Añadiendo class="table" se ve así:</p>
+			<table ccID="4404" class="table">
+				   <tr ccID="4434">
+				   	   <th ccID="4451">Titulo Columna 1</th>
+				   	   <th ccID="4489">Título Columna 2</th>
+				   </tr>
+				   <tr ccID="4538">
+  				   	   <td ccID="4557">Celda 2,1</td>
+				   	   <td ccID="4588">Esto es una celda</td>
+				   </tr>
+				   <tr ccID="4637">
+				   	   <td ccID="4654">Celda 3,1</td>
+				   	   <td ccID="4685">Celda 3,2</td>
+				   </tr>
+			</table>
+			<p ccID="4735">Las clases disponibles son:</p>
+			<ul ccID="4774">
+				<li ccID="4784">table</li>
+				<li ccID="4804">table-striped</li>
+				<li ccID="4832">table-bordered</li>
+				<li ccID="4861">table-hover</li>
+				<li ccID="4887">table-condensed</li>
+			</ul>
+			<p ccID="4926">Pero por si esto no fuera suficiente, bootstrap nos brinda la posibilidad de modificar las columnas (tr) o las celdas con las siguientes clases:</p>
+			<ul ccID="5082">
+				<li ccID="5092">active</li>
+				<li ccID="5113">success</li>
+				<li ccID="5135">warning</li>
+				<li ccID="5157">danger</li>
+				<li ccID="5178">info</li>
+			</ul>
+  
+  		
+					 		 <!-- Modal -->
+	 	 <div ccID="5242" class="modal fade" id="Modales" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  	 		<div ccID="5346" class="modal-dialog" role="document">
+       			<div ccID="5400" class="modal-content">
+      	 		  <div ccID="5441" class="modal-header">
+           		  	   <button ccID="5488" type="button" class="close" data-dismiss="modal" aria-label="Close"><span ccID="5564" aria-hidden="true">&times;</span></button>
+        		  	   <h4 ccID="5630" class="modal-title" id="myModalLabel">Modales</h4>
+      			  </div>
+      			  <div ccID="5716" class="modal-body">
+           				<p ccID="5757">Esto es un modal, para escribir uno tienes antes que crear un boton o enlace que lo "invoque", añadiendo data-toggle="modal" y data-target="#nombredelmodal" o href="#nombredelmodal".<p ccID="5943">
+						<p ccID="5954">Ahora para crear un modal debes poner lo siguiente:</p>
+						<pre ccID="6020">
+&lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;&lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;&lt;/button&gt;
+        &lt;h4 class="modal-title" id="myModalLabel">Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Texto de modal
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-default" data-dismiss="modal"&gt;Close&lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary">Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+	  	  				</pre>
+      		 	  </div>
+      		 	  <div ccID="6946" class="modal-footer">
+           			<button ccID="6988" type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      			  </div>
+      			</div>
+  		  	</div>
+  		  </div>
+	</body>
+		  
+</html>

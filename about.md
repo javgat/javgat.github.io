@@ -25,10 +25,6 @@ Me gusta la música, estudié piano desde los 7 hasta los 18 años,
 finalizando el Grado Profesional de Piano en el Conservatorio
 Profesional de Valladolid en 2018.
 
-Me gusta la informática, la cocina, la electrónica, la farmacología,
-la neurociencia, el contrapunto barroco, el software libre,
-el funk y los helados.
-
 Me puedes encontrar en GitHub como [javgat](https://github.com/javgat).\
 También estoy en Linkedin: [Javier Gatón Herguedas][linkedin-url].
 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fuente</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image:url("img/plants.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		    }
+			.container{
+					   background-color: rgba(213, 248, 248, 0.8) ;
+			 }
+	</style>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<nav class="navbar navbar-inverse">
+  			 <div class="container-fluid">
+    		 	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			  	   <ul class="nav navbar-nav" >
+        			   	   <li><a href="index.html">Inicio</a></li>
+        				   <li class="dropdown">
+          				   	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tipografía<span class="caret"></span></a>
+          				   	  <ul class="dropdown-menu">
+						   	  	  <li><a href="titulos.html">Títulos</a></li>
+						   		  <li class="active"><a href="fuente.html">Fuente<span class="sr-only">(actual)</span></a></li>
+							  </ul>
+						   </li>
+						   <li><a href="enlaces.html">Enlaces</a></li>
+						   <li><a href="listas.html">Listas</a></li>
+						   <li><a href="tablas.html">Tablas</a></li>
+						   <li><a href="parrafos.html">Párrafos</a></li>
+						   <li><a href="formularios.html">Formularios</a></li>
+						   <li><a href="imagenes.html">Imágenes</a></li>
+						   <li><a href="estilo.html">Estilo</a></li>
+						   <li><a href="#Modales" data-toggle="modal" >Modales</a></li>
+						   <li class="dropdown">
+          				   	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          				   	  <ul class="dropdown-menu">
+							  	  <li><a href="index.html">Inicio</a></li>
+            			   	  	  <li><a href="titulos.html">Títulos</a></li>
+						   		  <li><a href="fuente.html">Fuente</a></li>
+						   		  <li><a href="enlaces.html">Enlaces</a></li>
+						   		  <li><a href="listas.html">Listas</a></li>
+						   		  <li><a href="tablas.html">Tablas</a></li>
+						   		  <li><a href="parrafos.html">Párrafos</a></li>
+						   		  <li><a href="formularios.html">Formularios</a></li>
+						   		  <li><a href="imagenes.html">Imágenes</a></li>
+						   		  <li><a href="estilo.html">Estilo</a></li>
+								  <li><a href="#Modales" data-toggle="modal" >Modales</a></li>
+            			   	  	  <li role="separator" class="divider"></li>
+            			   	  	  <li><a href="../">Volver a trabajos (tic2)</a></li>
+            			   	  	  <li role="separator" class="divider"></li>
+            			   	  	  <li><a href="../../">Volver a jav-gat</a></li>
+          				   	  </ul>
+        				   </li>
+      			  	   </ul>
+    		 	  </div>
+  			 </div>
+  		</nav>
+		<div class="container">
+			 <h1>Fuente</h1>
+			 <h3>Fuente básica</h3>
+			 <p>Para modificar la fuente de un texto puedes hacer 3 cosas:</p>
+			 <ul>
+			 	 <li><strong>Negrita</strong>: Para escribir en negrita hay que poner &lt;strong&gt; o &lt;b&gt;</li>
+				 <li><i>Cursiva</i>: Para escribir en cursiva hay que escribir &lt;i&gt;</li>
+				 <li><u>Subrayar</u>: Para subrayar hay que escribir &lt;u&gt;</li>
+			 </ul>
+			 <h3>Fuente bootstrap</h3>
+			 <p>Bootstrap, entre otras cosas, permite el uso de diferentes efectos sobre el texto, además de los básicos. Son los siguientes:</p>
+			 <ul>
+			 	 <li><mark>Marcado</mark>: Para marcar texto hay que poner &lt;mark&gt;</li>
+				 <li><del>Tachado</del>: Para tachar texto hay que poner &lt;del&gt; o &lt;i&gt;</li>
+				 <li><ins>Insertado</ins>: Visualmente igual a subrayado, &lt;ins&gt;</li>
+				 <li><small>Pequeño</small>: Texto 85% del tamaño, &lt;small&gt;</li>
+			 </ul>
+		</div>
+				
+					 		 <!-- Modal -->
+	 	 <div class="modal fade" id="Modales" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  	 		<div class="modal-dialog" role="document">
+       			<div class="modal-content">
+      	 		  <div class="modal-header">
+           		  	   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        		  	   <h4 class="modal-title" id="myModalLabel">Modales</h4>
+      			  </div>
+      			  <div class="modal-body">
+           				<p>Esto es un modal, para escribir uno tienes antes que crear un boton o enlace que lo "invoque", añadiendo data-toggle="modal" y data-target="#nombredelmodal" o href="#nombredelmodal".<p>
+						<p>Ahora para crear un modal debes poner lo siguiente:</p>
+						<pre>
+&lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;&lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;&lt;/button&gt;
+        &lt;h4 class="modal-title" id="myModalLabel">Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Texto de modal
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-default" data-dismiss="modal"&gt;Close&lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary">Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+	  	  				</pre>
+      		 	  </div>
+      		 	  <div class="modal-footer">
+           			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      			  </div>
+      			</div>
+  		  	</div>
+  		  </div>
+		  
+  </body>
+</html>

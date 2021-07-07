@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript: Teoría</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image: url("img/fondo.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		   }
+		   .container{
+		   		background-color: rgba(255, 186, 162, 0.85);
+		   }
+	</style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+			function ejecutar(){
+					 $('#ejecutar').html('Existen diversas formas para ejecutar javascript, pero la más sencilla es mediante botones, escribiendo onclick="código de java;"');
+			}
+			function funcion(){
+					 $('#funcion').html('Las funciones sirven para poner código de java recurrente o para agrupar todo el código en el mismo sitio, en la etiqueta script en head.<br/>Para ejecutarlas se tiene que poner "nombredefuncion();" en onclick, y la ejecutará.');
+			}
+			function objeto(){
+					 $('#objeto').html('Javascript es un lenguaje centrado en el objeto, y para seleccionar un objeto de la página tenemos que escribir $(&#39;objeto&#39;) siendo el objeto como en css lo modificable, tanto id (#), clase (.) o a todas las etiquetas de ese tipo (solo nombre de etiqueta).');
+					 }
+			function propiedades(){
+					 $('#propiedades').html('Las propiedades de un objeto se representa añadiendo después de éste un punto y la propiedad. $(&#39;objeto&#39;).propiedad() . Existen varias propiedades pero las principales son:<ul><li>.val() Valor del objeto.</li><li>.css() Estilo del objeto.</li><li>.hide(milisegundos que tarda) Esconde el objeto.</li><li>.append(texto a añadir) Añade.</li><li>.html(texto a escribir) Borra y escribe de nuevo.</li>');
+			}
+			function borrar(a){
+					 $(a).html('');
+			}
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<div class="container">
+			<ul class="nav nav-tabs nav-justified">
+  				<li role="presentation"><a href="index.html">Inicio</a></li>
+  				<li role="presentation" class="active"><a href="teoria.html">Teoría</a></li>
+  				<li role="presentation"><a href="ejercicios.html">Ejercicios</a></li>
+			</ul>
+		</div>
+  		<div class="container" id="pag">
+			 <h1>Teoría</h1>
+			 <p>Desde aquí puedes acceder a toda la teoría de javascript para html. Ten en cuenta que estoy usando jquery, lo cual hace mucho más fácil la programación javascript. Supongo que has visitado mi página de como programar html y sabrás instalarlo.</p>
+			 <p><button class="btn btn-info" onclick="ejecutar();">Cómo ejecutar java</button> <button class="btn btn-danger" onclick="borrar('#ejecutar')">Cerrar</button></p>
+			 <p id="ejecutar"></p>
+			 <p><button class="btn btn-info" onclick="funcion();">Funciones</button> <button class="btn btn-danger" onclick="borrar('#funcion')">Cerrar</button></p>
+			 <p id="funcion"></p>
+			 <p><button class="btn btn-info" onclick="objeto();">Seleccionar objeto</button> <button class="btn btn-danger" onclick="borrar('#objeto')">Cerrar</button></p>
+			 <p id="objeto"></p>
+			 <p><button class="btn btn-info" onclick="propiedades();">Propiedades</button> <button class="btn btn-danger" onclick="borrar('#propiedades')">Cerrar</button></p>
+			 <p id="propiedades"></p>
+		</div>
+
+  </body>
+</html>

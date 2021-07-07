@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tablas</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		   body{
+		   		background-image:url("img/plants.jpg");
+				background-size: auto;
+				color: black;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				background-attachment: fixed;
+		    }
+			.container{
+					   background-color: rgba(213, 248, 248, 0.8) ;
+			 }
+	</style>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  		<nav class="navbar navbar-inverse">
+  			 <div class="container-fluid">
+    		 	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			  	   <ul class="nav navbar-nav" >
+        			   	   <li><a href="index.html">Inicio</a></li>
+        				   <li class="dropdown">
+          				   	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tipografía<span class="caret"></span></a>
+          				   	  <ul class="dropdown-menu">
+						   	  	  <li><a href="titulos.html">Títulos</a></li>
+						   		  <li><a href="fuente.html">Fuente</a></li>
+							  </ul>
+						   </li>
+						   <li><a href="enlaces.html">Enlaces</a></li>
+						   <li><a href="listas.html">Listas</a></li>
+						   <li class="active"><a href="tablas.html">Tablas<span class="sr-only">(actual)</span></a></li>
+						   <li><a href="parrafos.html">Párrafos</a></li>
+						   <li><a href="formularios.html">Formularios</a></li>
+						   <li><a href="imagenes.html">Imágenes</a></li>
+						   <li><a href="estilo.html">Estilo</a></li>
+						   <li><a href="#Modales" data-toggle="modal" >Modales</a></li>
+						   <li class="dropdown">
+          				   	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          				   	  <ul class="dropdown-menu">
+							  	  <li><a href="index.html">Inicio</a></li>
+            			   	  	  <li><a href="titulos.html">Títulos</a></li>
+						   		  <li><a href="fuente.html">Fuente</a></li>
+						   		  <li><a href="enlaces.html">Enlaces</a></li>
+						   		  <li><a href="listas.html">Listas</a></li>
+						   		  <li><a href="tablas.html">Tablas</a></li>
+						   		  <li><a href="parrafos.html">Párrafos</a></li>
+						   		  <li><a href="formularios.html">Formularios</a></li>
+						   		  <li><a href="imagenes.html">Imágenes</a></li>
+						   		  <li><a href="estilo.html">Estilo</a></li>
+								  <li><a href="#Modales" data-toggle="modal" >Modales</a></li>
+            			   	  	  <li role="separator" class="divider"></li>
+            			   	  	  <li><a href="../">Volver a trabajos (tic2)</a></li>
+            			   	  	  <li role="separator" class="divider"></li>
+            			   	  	  <li><a href="../../">Volver a jav-gat</a></li>
+          				   	  </ul>
+        				   </li>
+      			  	   </ul>
+    		 	  </div>
+  			 </div>
+  		</nav>
+		<div class="container">
+			 <h1>Tablas</h1>
+			 <p>Las tablas sirven para hacer tablas. Se inicia con etiqueta &lt;table&gt;, crear filas con &lt;tr&gt; y luego celdas en cada fila &lt;td&gt;. Para celda "título" (centrada en negrita) se usa &lt;th&gt; Un ejemplo de tabla y luego su representación: </p>
+			 <pre>
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Titulo Columna 1&lt;/th&gt;
+		&lt;th&gt;Título Columna 2&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Celda 2,1&lt;/td&gt;
+		&lt;td&gt;Esto es una celda&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Celda 3,1&lt;/td&gt;
+		&lt;td&gt;Celda 3,2&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+			</pre>
+			(Para escribir el codigo directamente como aquí, he puesto &lt;pre&gt;&lt;/pre&gt; )<br/>
+			<table>
+				   <tr>
+				   	   <th>Titulo Columna 1</th>
+				   	   <th>Título Columna 2</th>
+				   </tr>
+				   <tr>
+  				   	   <td>Celda 2,1</td>
+				   	   <td>Esto es una celda</td>
+				   </tr>
+				   <tr>
+				   	   <td>Celda 3,1</td>
+				   	   <td>Celda 3,2</td>
+				   </tr>
+			</table>
+			<h2>Clases de tablas <small>Bootstrap</small></h2>
+			<p>Bootstrap vuelve a salvarnos el día y nos permite modificar la tabla para tener líneas y diseños "de fábrica" que no den asco. Añadiendo class="table" se ve así:</p>
+			<table class="table">
+				   <tr>
+				   	   <th>Titulo Columna 1</th>
+				   	   <th>Título Columna 2</th>
+				   </tr>
+				   <tr>
+  				   	   <td>Celda 2,1</td>
+				   	   <td>Esto es una celda</td>
+				   </tr>
+				   <tr>
+				   	   <td>Celda 3,1</td>
+				   	   <td>Celda 3,2</td>
+				   </tr>
+			</table>
+			<p>Las clases disponibles son:</p>
+			<ul>
+				<li>table</li>
+				<li>table-striped</li>
+				<li>table-bordered</li>
+				<li>table-hover</li>
+				<li>table-condensed</li>
+			</ul>
+			<p>Pero por si esto no fuera suficiente, bootstrap nos brinda la posibilidad de modificar las columnas (tr) o las celdas con las siguientes clases:</p>
+			<ul>
+				<li>active</li>
+				<li>success</li>
+				<li>warning</li>
+				<li>danger</li>
+				<li>info</li>
+			</ul>
+  
+  		
+					 		 <!-- Modal -->
+	 	 <div class="modal fade" id="Modales" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  	 		<div class="modal-dialog" role="document">
+       			<div class="modal-content">
+      	 		  <div class="modal-header">
+           		  	   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        		  	   <h4 class="modal-title" id="myModalLabel">Modales</h4>
+      			  </div>
+      			  <div class="modal-body">
+           				<p>Esto es un modal, para escribir uno tienes antes que crear un boton o enlace que lo "invoque", añadiendo data-toggle="modal" y data-target="#nombredelmodal" o href="#nombredelmodal".<p>
+						<p>Ahora para crear un modal debes poner lo siguiente:</p>
+						<pre>
+&lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;&lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;&lt;/button&gt;
+        &lt;h4 class="modal-title" id="myModalLabel">Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Texto de modal
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-default" data-dismiss="modal"&gt;Close&lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary">Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+	  	  				</pre>
+      		 	  </div>
+      		 	  <div class="modal-footer">
+           			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      			  </div>
+      			</div>
+  		  	</div>
+  		  </div>
+	</body>
+		  
+</html>
