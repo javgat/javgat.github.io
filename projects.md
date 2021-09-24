@@ -9,12 +9,25 @@ A continuación está una breve explicación de todos mis proyectos y talleres d
 
 <div class="card m-2" >
   <div class="card-body">
+    <h5 class="card-title">jugger-torneo</h5>
+    <p class="card-text" markdown="1">
+Aplicación móvil para la gestión de un torneo del deporte "jugger" siguiendo el sistema de competición suizo.
+Una aplicación móvil realizada en **Angular** e **Ionic**, diseñada para Android.
+<br/>
+La aplicación estará publicada en Google Play en breves, y se puede encontrar el código fuente en GitHub:
+[javgat][javgat-github-prof] / [jugger-torneo](https://github.com/javgat/jugger-torneo).
+    </p>
+  </div>
+</div>
+
+<div class="card m-2" >
+  <div class="card-body">
     <h5 class="card-title">UVa-DevTest</h5>
     <p class="card-text" markdown="1">
 Trabajo de Fin de Grado en convenio con HP SCDS: DevTest, herramienta para la evaluación de conocimientos de programación.
 Una aplicación web fullstack hecha con **Swagger**, **Golang**, **Angular** y **MariaDB**, siguiendo **SCRUM**.
 <br/>
-La web estará activa en breves, y se puede encontrar el código fuente en GitHub:
+La web está activa en [uvadevtest.com](https://uvadevtest.com), y se puede encontrar el código fuente en GitHub:
 [javgat][javgat-github-prof] / [UVa-DevTest](https://github.com/javgat/UVA-DevTest).
     </p>
   </div>
