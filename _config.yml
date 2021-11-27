@@ -25,7 +25,7 @@ lang : "es-ES"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 #antes ponia minima
 
 plugins:
