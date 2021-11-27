@@ -7,6 +7,8 @@ permalink: /about
 
 <h2 align="center"><b>¿Quién soy?</b></h2>
 
+Mi currículum completo: [Curriculum-vitae][curriculum-url].
+
 Soy Javier Gatón Herguedas, graduado en Ingeniería
 Informática con mención en Ingeniería de Software por la Universidad de Valladolid en el año 2021.
 
@@ -26,8 +28,6 @@ Durante mi estancia en la universidad participé en diversas actividades relativ
 
 Me puedes encontrar en GitHub como [javgat](https://github.com/javgat).\
 También estoy en Linkedin: [Javier Gatón Herguedas][linkedin-url].
-
-Mi currículum completo: [Curriculum-vitae][curriculum-url].
 
 [linkedin-url]: https://linkedin.com/in/javier-gaton-herguedas/
 [curriculum-url]: ./downloads/Javgat_CV.pdf

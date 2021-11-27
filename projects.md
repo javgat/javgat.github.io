@@ -14,8 +14,9 @@ A continuación está una breve explicación de todos mis proyectos y talleres d
 Aplicación móvil para la gestión de un torneo del deporte "jugger" siguiendo el sistema de competición suizo.
 Una aplicación móvil realizada en **Angular** e **Ionic**, diseñada para Android.
 <br/>
-La aplicación estará publicada en Google Play en breves, y se puede encontrar el código fuente en GitHub:
-[javgat][javgat-github-prof] / [jugger-torneo](https://github.com/javgat/jugger-torneo).
+La aplicación está publicada en Google Play como [jugger-torneo][jugger-torneo-google-play],
+y se puede encontrar el código fuente en GitHub: [javgat][javgat-github-prof] /
+[jugger-torneo](https://github.com/javgat/jugger-torneo).
     </p>
   </div>
 </div>
@@ -105,6 +106,7 @@ Informática: [Anuncio en web de la Universidad][tall-terminal-inf].
   </div>
 </div>
 
+[jugger-torneo-google-play]: https://play.google.com/store/apps/details?id=com.javgat.jugger_torneo
 [repo-SSW2020]: https://github.com/HylianPablo/SSW2020
 [hylp-github-prof]: https://github.com/HylianPablo
 [javgat-github-prof]: https://github.com/javgat
