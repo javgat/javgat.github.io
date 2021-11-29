@@ -1,53 +1,45 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
    {% include style.html %}
-   <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">-->
 
   </head>
-  <body>
-	  <!--<a id="skip-to-content" href="#content">Skip to the content.</a>-->
-    <br/>
-    <div class="container rounded" id="cuerpo">
-      <header class="page-header m-3" role="banner">
-        <p id="portada" align="center">{{ site.title | default: site.github.repository_name }}</p>
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-outline-info">View on GitHub</a>
-        {% endif %}
-        {% if site.show_downloads %}
-          <a href="{{ site.github.zip_url }}" class="btn btn-outline-info">Download .zip</a>
-          <a href="{{ site.github.tar_url }}" class="btn btn-outline-info">Download .tar.gz</a>
-        {% endif %}
-      </header>
-      <main id="content" class="main-content" role="main">
-      <!--{% include navigation.html %}-->
-	<div class="container">
-        {{ content }}
-	</div>
-      </main>
-      <br/>
-      <footer class="site-footer m-3">
-        {% if site.github.is_project_page %}
-        <p>
-          <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> es mantenido por 
-          <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
-        </p>
-        {% endif %}
-        <p>
-          Página generada con <a href="https://pages.github.com">GitHub Pages</a>.
 
-	  Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a>
-	  y <a href="https://www.flaticon.es/autores/xnimrodx" title="xnimrodx">xnimrodx</a>
-	  de <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
-	</p>
-      </footer>
-      <br/>
+  <body class="bg-primary">
+    <div class="vertical-center">
+      <div class="container rounded" id="cuerpo">
+
+        <header class="p-3" role="banner">
+          <div class="text-end">
+            {% if site.github.is_project_page %}
+              <a href="{{ site.github.repository_url }}" class="btn btn-info">View on GitHub</a>
+            {% endif %}
+            {% if site.show_downloads %}
+              <a href="{{ site.github.zip_url }}" class="btn btn-outline-info">Download .zip</a>
+              <a href="{{ site.github.tar_url }}" class="btn btn-outline-info">Download .tar.gz</a>
+            {% endif %}
+          </div>
+        </header>
+
+        <main id="content" class="main-content" role="main">
+          <div class="container">
+                {{ content }}
+          </div>
+        </main>
+        
+        <footer class="m-3 mt-5 py-3">
+          {% if site.github.is_project_page %}
+          <p class="text-center">
+            <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is mantained by 
+            <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+          </p>
+          {% endif %}
+        </footer>
+
+      </div>
     </div>
-    <br/>
   </body>
 </html>
