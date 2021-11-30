@@ -1,16 +1,31 @@
-      body{
-	background-color : #043e4e;
+body {
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 	/*font-size: 16px;*/
-      }
-      #portada{
-	font-size: 80px;
-	font-family: "Arial Black", Gadget, sans-serif;
-        font-weight: bold;
-      }
-      #cuerpo{
-	background-color: rgba(255,255,255, 0.9);
+}
+
+#cuerpo {
+	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 10px;
 	/*background-color: rgba(213, 248, 248, 0.8) ;*/
-      }
+}
+
+.gradient-primary {
+	background: linear-gradient(rgba(0,0,0,0) 0%, rgba(var(--bs-primary-rgb),0) 40%, rgba(var(--bs-primary-rgb),1) 100%);
+}
+
+.card:hover .gradient-primary {
+	background: linear-gradient(rgba(0,0,0,0) 0%, rgba(var(--bs-primary-rgb),0) 45%, rgba(var(--bs-primary-rgb),1) 100%);
+}
+
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+	display: flex;
+	align-items: center;
+}
+
+.tarjeta {
+	height: 100%;
+}
