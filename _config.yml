@@ -16,12 +16,12 @@
 title: Javgat
 email: javigaton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Mis trabajos y talleres.
+  Javier Gatón's projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://javgat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  javgat
-lang : "es-ES"
+lang : "en-US"
 
 # Build settings
 markdown: kramdown
