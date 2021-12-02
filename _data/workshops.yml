@@ -1,0 +1,20 @@
+- name: Taller de Terminal en Linux
+  description: |
+    Taller de introducción al uso de comandos de Linux/Unix y de Vi y Vim para
+    alumnos de cursos inferiores del grado de Ingeniería Informática.
+    <br/>
+    Los contenidos del taller se pueden ver en el proyecto de GitHub
+    que subió mi compañero de taller:
+    [HylianPablo](https://github.com/HylianPablo) / [TallerTerminal2019](https://github.com/HylianPablo/TallerTerminal2019).
+    <br/>
+    El taller también fue anunciado en la web de la Escuela de Ingeniería
+    Informática: [Anuncio en web de la Universidad](https://inf.uva.es/2019/03/28/taller-de-terminal-en-linux/).
+  has_image: true
+  image:
+    src: /img/tallerTerminal.png
+    alt: Imagen de anuncio de taller
+  tags:
+    - Linux
+    - Unix
+    - Vi
+    - Vim
