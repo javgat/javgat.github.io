@@ -12,7 +12,7 @@ permalink: /projects
   <div class="mx-3">
   {% for tag in tags_p %}
     {% assign tagtag = "'" | append: tag.tag | append: "'" %}
-    <span role="button" id="badge-{{tag.tag}}" class="badge bg-secondary" onclick="filterTagsProjects({{tagtag}})">{{tag.tag}}</span>
+    <span role="button" id="badge-{{tag.tag}}" class="badge user-select-none bg-secondary" onclick="filterTagsProjects({{tagtag}})">{{tag.tag}}</span>
   {% endfor %}
   </div>
 </div>
