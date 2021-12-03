@@ -1,11 +1,12 @@
 # If you want to say the char " say \" instead or there will be an error
+# And instead of ' say &#39;
 - name: jugger-torneo
   description: |
-    Aplicación móvil para la gestión de un torneo del deporte \"jugger\" siguiendo el sistema de competición suizo.
-    Una aplicación móvil realizada en **Angular** e **Ionic**, diseñada para Android.
+    Mobile App designed for the management of \"jugger\" tournaments, following the Swiss System.
+    Made with **Angular** and **Ionic**, designed for **Android**.
     <br/>
-    La aplicación está publicada en Google Play como [jugger-torneo](https://play.google.com/store/apps/details?id=com.javgat.jugger_torneo),
-    y se puede encontrar el código fuente en GitHub: [javgat](https://github.com/javgat) /
+    The app has been published on Google Play as [jugger-torneo](https://play.google.com/store/apps/details?id=com.javgat.jugger_torneo),
+    and the source code can be found on GitHub: [javgat](https://github.com/javgat) /
     [jugger-torneo](https://github.com/javgat/jugger-torneo).
   has_image: false
   tags:
@@ -15,10 +16,10 @@
     - Android
 - name: UVA-DevTest
   description: |
-    Trabajo de Fin de Grado en convenio con HP SCDS: DevTest, herramienta para la evaluación de conocimientos de programación.
-    Una aplicación web fullstack hecha con **Swagger**, **Golang**, **Angular** y **MariaDB**, siguiendo **SCRUM**.
+    Undergraduate Thesis Project with HP SCDS: DevTest, tool for programming knowledge evaluation.
+    A fullstack web application made with **Swagger**, **Golang**, **Angular** and **MariaDB**, following **SCRUM**.
     <br/>
-    La web está activa en [uvadevtest.com](https://uvadevtest.com), y se puede encontrar el código fuente en GitHub:
+    The webpage is up and running at [uvadevtest.com](https://uvadevtest.com), and the source code can be found on GitHub:
     [javgat](https://github.com/javgat) / [UVa-DevTest](https://github.com/javgat/UVA-DevTest).
   has_image: false
   tags:
@@ -33,35 +34,16 @@
     - MySQL
     - Docker
     - Database
-- name: Healthy Bowl
-  description: |
-    Trabajo grupal final para la asignatura de Servicios y Sistemas Web
-    que consistía en una página web que generaba dietas dinámicamente
-    y las guardaba en una base de datos SQL con gestión de usuarios y
-    sesiones de forma segura.
-    Obtuvimos la matrícula de honor con este trabajo.
-    <br/>
-    La web ya no está activa pero se puede encontrar el código fuente en GitHub:
-    [HylianPablo](https://github.com/HylianPablo) / [SSW2020](https://github.com/HylianPablo/SSW2020).
-  has_image: false
-  tags:
-    - Fullstack
-    - Web
-    - SQL
-    - Java
-    - Jsp
 - name: Overflow Synth
   description: |
-    Diseño y creación en java de un sintetizador de sonidos y ruido basado en
-    aritmética modular y una interfaz de usuario sencilla.
+    Design and development of a sound and noise synthesizer in **Java**, based on modular arythmetic and with a simple UI.
     <br/>
-    La idea no era solo desarrollar el programa en sí, sino también aprender sobre
-    el tratamiento computacional del sonido.
+    This project was made in order to understand better how sound is treated computationally.
     <br/>
-    El proyecto está disponible en GitHub:
+    The project&#39;s source code is available on GitHub:
     [javgat](https://github.com/javgat) / [overflow-synth](https://github.com/javgat/overflow-synth).
     <br/>
-    Está disponible una versión de descarga ejecutable:
+    It is also available an executable for download:
     [overflow-synth.jar](/downloads/overflow-synth-latest.jar).
   has_image: false
   tags:
@@ -69,14 +51,31 @@
     - Java
     - Music
     - Sound
+- name: Healthy Bowl
+  description: |
+    A group project for UVa where we designed and developed a full stack
+    web application for a dynamic meal plan generator.
+    We won best project distinction in that subject.
+    Made with **Java**, **jsp** and **MySQL**.
+    <br/>
+    This webpage is no longer available, but you can find the source code on GitHub:
+    [HylianPablo](https://github.com/HylianPablo) / [SSW2020](https://github.com/HylianPablo/SSW2020).
+  has_image: false
+  tags:
+    - Fullstack
+    - Web
+    - SQL
+    - MySQL
+    - Java
+    - Jsp
 - name: javgat.github.io
   description: |
-    Página web hecha con Jekyll y hospedada gracias a GitHub Pages en la que
-    expondré brevemente mis proyectos y talleres.
+    Webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
+    information about myself and some projects.
     <br/>
-    La página es [esta misma](https://javgat.github.io), y el código fuente
-    se puede encontrar en Github:
-    [javgat](https://github.com/javgat) / [javgat.github.io](https://github.com/javgat/javgat.github.io ).
+    The webpage is [javgat.github.io](https://javgat.github.io), and the source code
+    can be found on GitHub:
+    [javgat](https://github.com/javgat) / [javgat.github.io](https://github.com/javgat/javgat.github.io).
   has_image: false
   tags:
     - Web
