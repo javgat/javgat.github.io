@@ -1,6 +1,7 @@
+# If you want to say the char " say \" instead or there will be an error
 - name: jugger-torneo
   description: |
-    Aplicación móvil para la gestión de un torneo del deporte "jugger" siguiendo el sistema de competición suizo.
+    Aplicación móvil para la gestión de un torneo del deporte \"jugger\" siguiendo el sistema de competición suizo.
     Una aplicación móvil realizada en **Angular** e **Ionic**, diseñada para Android.
     <br/>
     La aplicación está publicada en Google Play como [jugger-torneo](https://play.google.com/store/apps/details?id=com.javgat.jugger_torneo),
