@@ -4,14 +4,17 @@ title: Projects
 permalink: /projects
 ---
 
-<h2 class="m-3">Projects</h2>
+<h2 class="m-3">My projects</h2>
 
-{% assign tags_p = site.data.tags_projects | sort: 'tag' %}
-<div>
-{% for tag in tags_p %}
-  {% assign tagtag = "'" | append: {{tag.tag}} | append: "'" %}
-  <span role="button" id="badge-{{tag.tag}}" class="badge bg-secondary" onclick="filterTagsProjects({{tagtag}})">{{tag.tag}}</span>
-{% endfor %}
+<div class="m-3 mt-4">
+  <label class="form-label text-muted">Filter by tag:</label>
+  {% assign tags_p = site.data.tags_projects | sort: 'tag' %}
+  <div class="mx-3">
+  {% for tag in tags_p %}
+    {% assign tagtag = "'" | append: {{tag.tag}} | append: "'" %}
+    <span role="button" id="badge-{{tag.tag}}" class="badge bg-secondary" onclick="filterTagsProjects({{tagtag}})">{{tag.tag}}</span>
+  {% endfor %}
+  </div>
 </div>
 
 <div id="projects">

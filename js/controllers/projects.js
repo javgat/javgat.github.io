@@ -67,7 +67,7 @@ class="mx-auto d-block rounded img-fluid" width="500"/>';
     myHTML += '\
 <div class="card m-2" >\
   <div class="card-body">\
-    <h5 class="card-title mx-2">' + project.name + '</h5>\
+    <h5 class="card-title mx-2">' + project.name + '</h5><hr/>\
     <p class="card-text" markdown="1">\n\
 ' + converter.makeHtml(project.description) + '\n\
     </p>' + extraImageHTML + '\
