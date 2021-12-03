@@ -1,23 +1,52 @@
 var converter = new showdown.Converter();
 var PROJECTS = [];
 var WORKSHOPS = [];
+let projects_tag_filter = [];
 
 function clickChangeTag() {
   let inputTag = document.getElementById("inputTag");
   filterTagsProjects(inputTag.value);
 }
 
+function uiDeactivateTag(tag) {
+  let badge = document.getElementById("badge-" + tag);
+  badge.className = badge.className.replace(/(?:^|\s)bg-primary(?!\S)/g, ' bg-secondary ')
+}
+
+function uiActivateTag(tag) {
+  let badge = document.getElementById("badge-" + tag);
+  badge.className = badge.className.replace(/(?:^|\s)bg-secondary(?!\S)/g, ' bg-primary ')
+}
+
 function filterTagsProjects(tag) {
+  if (projects_tag_filter.includes(tag)) { 
+    projects_tag_filter = projects_tag_filter.filter(t => t != tag);
+    uiDeactivateTag(tag);
+  } else {
+    projects_tag_filter.push(tag);
+    uiActivateTag(tag);
+  }
+  filterProjectsOR();
+}
+
+function filterProjectsOR() {
   let projects = [];
   let project;
-  for (let i = 0; i < PROJECTS.length; i++) {
-    project = PROJECTS[i];
-    const uppercased = project.tags.map(t => t.toUpperCase());
-    if (uppercased.includes(tag.toUpperCase())) {
-      projects.push(project);
+  if (projects_tag_filter.length == 0) {
+    projects = PROJECTS;
+  } else {
+    for (let i = 0; i < PROJECTS.length; i++) {
+      project = PROJECTS[i];
+      const uppercased = project.tags.map(t => t.toUpperCase());
+      for (let j = 0; j < projects_tag_filter.length; j++) {
+        let tag = projects_tag_filter[j];
+        if (uppercased.includes(tag.toUpperCase())) {
+          projects.push(project);
+        }
+      }
     }
   }
-  showProjects(projects);
+  showProjects(projects); 
 }
 
 function showProjects(projects) {
