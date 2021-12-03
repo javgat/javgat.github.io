@@ -1,0 +1,82 @@
+# If you want to say the char " say \" instead or there will be an error
+# And instead of ' say &#39;
+- name: jugger-torneo
+  description: |
+    Mobile App designed for the management of \"jugger\" tournaments, following the Swiss System.
+    Made with **Angular** and **Ionic**, designed for **Android**.
+    <br/>
+    The app has been published on Google Play as [jugger-torneo](https://play.google.com/store/apps/details?id=com.javgat.jugger_torneo),
+    and the source code can be found on GitHub: [javgat](https://github.com/javgat) /
+    [jugger-torneo](https://github.com/javgat/jugger-torneo).
+  has_image: false
+  tags:
+    - Mobile
+    - Angular
+    - Ionic
+    - Android
+- name: UVA-DevTest
+  description: |
+    Undergraduate Thesis Project with HP SCDS: DevTest, tool for programming knowledge evaluation.
+    A fullstack web application made with **Swagger**, **Golang**, **Angular** and **MariaDB**, following **SCRUM**.
+    <br/>
+    The webpage is up and running at [uvadevtest.com](https://uvadevtest.com), and the source code can be found on GitHub:
+    [javgat](https://github.com/javgat) / [UVa-DevTest](https://github.com/javgat/UVA-DevTest).
+  has_image: false
+  tags:
+    - Fullstack
+    - Web
+    - Angular
+    - Swagger
+    - OpenAPI
+    - Golang
+    - MariaDB
+    - SQL
+    - MySQL
+    - Docker
+    - Database
+- name: Overflow Synth
+  description: |
+    Design and development of a sound and noise synthesizer in **Java**, based on modular arythmetic and with a simple UI.
+    <br/>
+    This project was made in order to understand better how sound is treated computationally.
+    <br/>
+    The project&#39;s source code is available on GitHub:
+    [javgat](https://github.com/javgat) / [overflow-synth](https://github.com/javgat/overflow-synth).
+    <br/>
+    It is also available an executable for download:
+    [overflow-synth.jar](/downloads/overflow-synth-latest.jar).
+  has_image: false
+  tags:
+    - Desktop
+    - Java
+    - Music
+    - Sound
+- name: Healthy Bowl
+  description: |
+    A group project for UVa where we designed and developed a full stack
+    web application for a dynamic meal plan generator.
+    We won best project distinction in that subject.
+    Made with **Java**, **jsp** and **MySQL**.
+    <br/>
+    This webpage is no longer available, but you can find the source code on GitHub:
+    [HylianPablo](https://github.com/HylianPablo) / [SSW2020](https://github.com/HylianPablo/SSW2020).
+  has_image: false
+  tags:
+    - Fullstack
+    - Web
+    - SQL
+    - MySQL
+    - Java
+    - Jsp
+- name: javgat.github.io
+  description: |
+    Webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
+    information about myself and some projects.
+    <br/>
+    The webpage is [javgat.github.io](https://javgat.github.io), and the source code
+    can be found on GitHub:
+    [javgat](https://github.com/javgat) / [javgat.github.io](https://github.com/javgat/javgat.github.io).
+  has_image: false
+  tags:
+    - Web
+    - Jekyll
