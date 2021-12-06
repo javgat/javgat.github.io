@@ -2,7 +2,7 @@
 - tag: Angular
 - tag: Ionic
 - tag: Android
-- tag: Fullstack
+- tag: FullStack
 - tag: Web
 - tag: Swagger
 - tag: OpenAPI
@@ -18,3 +18,5 @@
 - tag: Music
 - tag: Sound
 - tag: Jekyll
+- tag: TypeScript
+- tag: JavaScript

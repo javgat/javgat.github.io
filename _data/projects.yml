@@ -2,8 +2,8 @@
 # And instead of ' say &#39;
 - name: jugger-torneo
   description: |
-    Mobile App designed for the management of \"jugger\" tournaments, following the Swiss System.
-    Made with **Angular** and **Ionic**, designed for **Android**.
+    A mobile App designed for the management of \"jugger\" tournaments, applying the Swiss System.
+    It is made with **Angular** and **Ionic**, designed for **Android**.
     <br/>
     The app has been published on Google Play as [jugger-torneo](https://play.google.com/store/apps/details?id=com.javgat.jugger_torneo),
     and the source code can be found on GitHub: [javgat](https://github.com/javgat) /
@@ -14,16 +14,18 @@
     - Angular
     - Ionic
     - Android
+    - TypeScript
 - name: UVA-DevTest
   description: |
-    Undergraduate Thesis Project with HP SCDS: DevTest, tool for programming knowledge evaluation.
-    A fullstack web application made with **Swagger**, **Golang**, **Angular** and **MariaDB**, following **SCRUM**.
+    An Undergraduate Thesis Project made under the arrangement between University of Valladolid and HP's Observatory of HP SCDS: DevTest,
+    tool for programming knowledge evaluation. It's a full-stack web application made with **Swagger**, **Golang**, **Angular** and
+    **MariaDB**, following **SCRUM**.
     <br/>
     The webpage is up and running at [uvadevtest.com](https://uvadevtest.com), and the source code can be found on GitHub:
     [javgat](https://github.com/javgat) / [UVa-DevTest](https://github.com/javgat/UVA-DevTest).
   has_image: false
   tags:
-    - Fullstack
+    - FullStack
     - Web
     - Angular
     - Swagger
@@ -34,16 +36,17 @@
     - MySQL
     - Docker
     - Database
+    - TypeScript
 - name: Overflow Synth
   description: |
-    Design and development of a sound and noise synthesizer in **Java**, based on modular arythmetic and with a simple UI.
+    A sound/noise synthesizer based on modular arythmetic. It was made with **Java**.
     <br/>
-    This project was made in order to understand better how sound is treated computationally.
+    This project was made in order to better understand how sound is computationally processed.
     <br/>
     The project&#39;s source code is available on GitHub:
     [javgat](https://github.com/javgat) / [overflow-synth](https://github.com/javgat/overflow-synth).
     <br/>
-    It is also available an executable for download:
+    There is also an executable available for download:
     [overflow-synth.jar](/downloads/overflow-synth-latest.jar).
   has_image: false
   tags:
@@ -53,25 +56,25 @@
     - Sound
 - name: Healthy Bowl
   description: |
-    A group project for UVa where we designed and developed a full stack
-    web application for a dynamic meal plan generator.
-    We won best project distinction in that subject.
-    Made with **Java**, **jsp** and **MySQL**.
+    A group project for the subject \"Web services and systems\" of University of Valladolid, where we designed
+    and developed a full stack web application that consisted of a dynamic meal plan generator. The project won best
+    project distinction in that subject. Made with **Java**, **jsp** and **MySQL**.
     <br/>
-    This webpage is no longer available, but you can find the source code on GitHub:
+    The webpage is no longer available, but you can find the source code on GitHub:
     [HylianPablo](https://github.com/HylianPablo) / [SSW2020](https://github.com/HylianPablo/SSW2020).
   has_image: false
   tags:
-    - Fullstack
+    - FullStack
     - Web
     - SQL
     - MySQL
     - Java
     - Jsp
+    - JavaScript
 - name: javgat.github.io
   description: |
-    Webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
-    information about myself and some projects.
+    A webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
+    information about myself and some of my projects.
     <br/>
     The webpage is [javgat.github.io](https://javgat.github.io), and the source code
     can be found on GitHub:
@@ -80,3 +83,4 @@
   tags:
     - Web
     - Jekyll
+    - JavaScript
