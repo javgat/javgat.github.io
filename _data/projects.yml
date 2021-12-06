@@ -17,8 +17,8 @@
     - TypeScript
 - name: UVA-DevTest
   description: |
-    An Undergraduate Thesis Project made under the arrangement between University of Valladolid and HP's Observatory of HP SCDS: DevTest,
-    tool for programming knowledge evaluation. It's a full-stack web application made with **Swagger**, **Golang**, **Angular** and
+    An Undergraduate Thesis Project made under the arrangement between University of Valladolid and HP&#39;s Observatory of HP SCDS: DevTest,
+    tool for programming knowledge evaluation. It&#39;s a full-stack web application made with **Swagger**, **Golang**, **Angular** and
     **MariaDB**, following **SCRUM**.
     <br/>
     The webpage is up and running at [uvadevtest.com](https://uvadevtest.com), and the source code can be found on GitHub:
