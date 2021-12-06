@@ -9,7 +9,7 @@ title: Home
 <div class="row">
   <div class="col-sm my-3">
     <div class="card tarjeta p-2">
-      <img src="/img/graduation.png" class="card-img" alt="Portrait photography of Javier Gaton at his College Graduation">
+      <img src="/img/graduation_small.jpg" class="card-img" alt="Portrait photography of Javier Gaton at his College Graduation">
       <div class="card-img-overlay d-flex align-items-start flex-column gradient-primary text-white">
         <div class="mt-auto p-3">
           <h4 class="card-title">Javier Gatón Herguedas</h4>
