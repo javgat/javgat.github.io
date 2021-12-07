@@ -26,7 +26,7 @@ function filterTagsProjects(tag) {
     projects_tag_filter.push(tag);
     uiActivateTag(tag);
   }
-  filterProjectsOR();
+  filterProjectsAND();
 }
 
 function filterProjectsOR() {
@@ -38,11 +38,39 @@ function filterProjectsOR() {
     for (let i = 0; i < PROJECTS.length; i++) {
       project = PROJECTS[i];
       const uppercased = project.tags.map(t => t.toUpperCase());
+      let containTags = false;
       for (let j = 0; j < projects_tag_filter.length; j++) {
         let tag = projects_tag_filter[j];
         if (uppercased.includes(tag.toUpperCase())) {
-          projects.push(project);
+          containTags = true;
         }
+      }
+      if (containTags) {
+        projects.push(project);
+      }
+    }
+  }
+  showProjects(projects); 
+}
+
+function filterProjectsAND() {
+  let projects = [];
+  let project;
+  if (projects_tag_filter.length == 0) {
+    projects = PROJECTS;
+  } else {
+    for (let i = 0; i < PROJECTS.length; i++) {
+      project = PROJECTS[i];
+      const uppercased = project.tags.map(t => t.toUpperCase());
+      let containTags = true;
+      for (let j = 0; j < projects_tag_filter.length; j++) {
+        let tag = projects_tag_filter[j];
+        if (!uppercased.includes(tag.toUpperCase())) {
+          containTags = false;
+        }
+      }
+      if (containTags) {
+        projects.push(project);
       }
     }
   }
