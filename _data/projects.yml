@@ -73,6 +73,23 @@
     - Java
     - Jsp
     - JavaScript
+- name: Ubicate SMOV
+  description: |
+    An Android app made as a group project for the subject \"Mobile systems\" of University of Valladolid. The app&#39;s
+    main functionality was letting the user share its location with a group of people, and watch the shared locations
+    live on a map. It also allowed the users to chat with other group members and had support for group events.
+    <br/>
+    Made in **Java** using Google Maps API and using **Firebase** as the Backend/Database.
+    <br/>
+    The app was not published on Google Play, but the source code is available on GitHub:
+    [javgat](https://github.com/javgat) / [ubicate-smov](https://github.com/javgat/ubicate-smov).
+  has_image: false
+  tags:
+    - Java
+    - Android
+    - Mobile
+    - Firebase
+    - Database
 - name: javgat.github.io
   description: |
     A webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
