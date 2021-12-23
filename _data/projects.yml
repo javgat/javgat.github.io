@@ -96,7 +96,7 @@
     calculate the best team composition based on which map is chosen and also on which are the preferred brawlers for each team member.
     This data (the chosen map and the prefererd brawlers) is inserted by the user.
     <br/>
-    Made in **Angular** with **Material Design" using [brawlapi](https://brawlapi.com) and generating the API client with **Swagger**.
+    Made in **Angular** with **Material Design** using [brawlapi](https://brawlapi.com) and generating the API client with **Swagger**.
     <br/>
     The webpage is up and running at [javgat.github.io/brawler-selector/](https://javgat.github.io/brawler-selector/), and the source
     code can be found on GitHub:
