@@ -90,6 +90,24 @@
     - Mobile
     - Firebase
     - Database
+- name: brawler-selector
+  description: |
+    A web application that consumes [brawlify.com](https://brawlify.com) data through their API and uses it in order to
+    calculate the best team composition based on which map is chosen and also on which are the preferred brawlers for each team member.
+    This data (the chosen map and the prefererd brawlers) is inserted by the user.
+    <br/>
+    Made in **Angular** with **Material Design** using [brawlapi](https://brawlapi.com) and generating the API client with **Swagger**.
+    <br/>
+    The webpage is up and running at [javgat.github.io/brawler-selector/](https://javgat.github.io/brawler-selector/), and the source
+    code can be found on GitHub:
+    [javgat](https://github.com/javgat) / [brawler-selector](https://github.com/javgat/brawler-selector).
+  has_image: false
+  tags:
+    - Web
+    - Angular
+    - Swagger
+    - OpenAPI
+    - Material-Design
 - name: javgat.github.io
   description: |
     A webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
