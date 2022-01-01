@@ -73,6 +73,56 @@
     - Java
     - Jsp
     - JavaScript
+- name: Ubicate SMOV
+  description: |
+    An Android app made as a group project for the subject \"Mobile systems\" of University of Valladolid. The app&#39;s
+    main functionality was letting the user share its location with a group of people, and watch the shared locations
+    live on a map. It also allowed the users to chat with other group members and had support for group events.
+    <br/>
+    Made in **Java** using Google Maps API and using **Firebase** as the Backend/Database.
+    <br/>
+    The app was not published on Google Play, but the source code is available on GitHub:
+    [javgat](https://github.com/javgat) / [ubicate-smov](https://github.com/javgat/ubicate-smov).
+  has_image: false
+  tags:
+    - Java
+    - Android
+    - Mobile
+    - Firebase
+    - Database
+- name: brawler-selector
+  description: |
+    A web application that consumes [brawlify.com](https://brawlify.com) data through their API and uses it in order to
+    calculate the best team composition based on which map is chosen and also on which are the preferred brawlers for each team member.
+    This data (the chosen map and the prefererd brawlers) is inserted by the user.
+    <br/>
+    Made in **Angular** with **Material Design** using [brawlapi](https://brawlapi.com) and generating the API client with **Swagger**.
+    <br/>
+    The webpage is up and running at [javgat.github.io/brawler-selector/](https://javgat.github.io/brawler-selector/), and the source
+    code can be found on GitHub:
+    [javgat](https://github.com/javgat) / [brawler-selector](https://github.com/javgat/brawler-selector).
+  has_image: false
+  tags:
+    - Web
+    - Angular
+    - Swagger
+    - OpenAPI
+    - Material-Design
+- name: archytas
+  description: |
+    A desktop application that, using Twitter API through Tweepy, allowes the user to perform complex automated actions like mass
+    retweeting tweets that contain a keyword.
+    <br/>
+    Made in **Python** with **PySide2** (Qt5 for Python) and **Tweepy**.
+    <br/>
+    The development wasn&#39;t finished, but a demo binary is available at
+    [github.com/javgat/archytas/releases](https://github.com/javgat/archytas/releases), and the source code can be found on GitHub:
+    [javgat](https://github.com/javgat) / [archytas](https://github.com/javgat/archytas).
+  has_image: false
+  tags:
+    - Desktop
+    - Python
+    - Qt
 - name: javgat.github.io
   description: |
     A webpage made with **Jekyll** and hosted with GitHub Pages, where I show some

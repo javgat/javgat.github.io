@@ -15,7 +15,7 @@ I like music, and I studied piano from 7 to 18 years old, finishing the Professi
 at the Valladolid Professional Conservatory in 2018.
 
 <h3 class="mx-3 mt-5">Studying at University of Valladolid (UVa)</h3>
-<h5 class="mx-3 mb-3"><small class="text-muted">Valladolid (Spain) - 2017 - 2021</small></h5>
+<h5 class="mx-3 mb-3"><small class="text-muted">Valladolid (Spain) - September 2017 - July 2021</small></h5>
 <div class="clearfix">
     <figure class="figure float-end col-sm-5 col-md-auto">
         <img class="rounded img-fluid" src="./img/graduation_take_diploma.jpg" alt="Javier Gatón at his Graduation ceremony" />
@@ -33,6 +33,7 @@ at the Valladolid Professional Conservatory in 2018.
         <li>I taught courses at the Hour Of Code, like the <a href="https://github.com/HylianPablo/TallerC_HoC2020">introductory and intermediate <b>C</b> courses at Hour of Code 2020</a>.</li>
         <li>I joined UVaCoders (Competitive Algorithmics Team) in order to hone my skills in algorithmics. With them I took part in multiples coding contest, namely multiple editions of the Cloudflight/Catalysts Coding Contest using <b>Python</b>, <b>C</b> and <b>Java</b>.</li>
         <li>I was a member of the directive committee of the first regional olympiad in informatics, <a href="https://www.inf.uva.es/en/2021/02/01/celebrada-la-1a-olimpiada-informatica-de-castilla-y-leon/">OICyL 2021</a>.</li>
+        <li>I did a <b>research internship</b> in the research group <a href="http://goa.uva.es/the-group/">GOA-UVa</a>, working with data from NASA's AERONET photometers.</li>
     </ul>
 </div>
 
@@ -51,6 +52,21 @@ at the Valladolid Professional Conservatory in 2018.
     </p>
     <p>
         Although I had a great time, the time here also showed me that my true vocation was research and teaching.
+    </p>
+</div>
+
+<h3 class="mx-3 mt-5">Research at GOA-UVa</h3>
+<h5 class="mx-3 mb-3"><small class="text-muted">Valladolid (Spain) - January 2022 - Present</small></h5>
+<div class="clearfix">
+    <figure class="figure float-end col-sm-4 col-md-3">
+        <img class="rounded img-fluid" src="./img/goa_uva.png" alt="GOA-UVa's logo" />
+        <figcaption class="figure-caption">GOA-UVa's logo.</figcaption>
+    </figure>
+    <p>
+        During my internship at GOA-UVa (Grupo de Óptica Atmosférica) in 2021 I was offered a full-time job as a research assistant, and after realizing that I wanted to work on research, I started working here on January 2022.
+    </p>
+    <p>
+        The main project I am working on is the development of a toolbox and some Python libraries for a lunar photometer model and a lunar irradiance model.
     </p>
 </div>
 
