@@ -108,6 +108,21 @@
     - Swagger
     - OpenAPI
     - Material-Design
+- name: archytas
+  description: |
+    A desktop application that using Twitter API through Tweepy, allowes the user to perform complex automated actions like mass
+    retweeting tweets that contain a keyword.
+    <br/>
+    Made in **Python** with **PySide2** (Qt5 for Python) and **Tweepy**.
+    <br/>
+    The development wasn&#39;t finished, but a demo binary is available at
+    [github.com/javgat/archytas/releases](https://github.com/javgat/archytas/releases), and the source code can be found on GitHub:
+    [javgat](https://github.com/javgat) / [archytas](https://github.com/javgat/archytas).
+  has_image: false
+  tags:
+    - Desktop
+    - Python
+    - Qt
 - name: javgat.github.io
   description: |
     A webpage made with **Jekyll** and hosted with GitHub Pages, where I show some
