@@ -110,7 +110,7 @@
     - Material-Design
 - name: archytas
   description: |
-    A desktop application that using Twitter API through Tweepy, allowes the user to perform complex automated actions like mass
+    A desktop application that using Twitter API through Tweepy, that allowes the user to perform complex automated actions like mass
     retweeting tweets that contain a keyword.
     <br/>
     Made in **Python** with **PySide2** (Qt5 for Python) and **Tweepy**.
