@@ -66,7 +66,7 @@ at the Valladolid Professional Conservatory in 2018.
         During my internship at GOA-UVa (Grupo de Óptica Atmosférica) in 2021 I was offered a full-time job as a research assistant, and after realizing that I wanted to work on research, I started working here on January 2022.
     </p>
     <p>
-        The main project I am working on is the development of a toolbox and some Python libraries for a lunar photometer model and a lunar irradiance model.
+        The main project I am working on is the development of a toolbox and some Python libraries for the ESA project "Lunar spectral irradiance measurement and modelling for absolute calibration of EO opticar sensors."
     </p>
 </div>
 

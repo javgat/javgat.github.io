@@ -104,6 +104,7 @@
   has_image: false
   tags:
     - Web
+    - TypeScript
     - Angular
     - Swagger
     - OpenAPI
